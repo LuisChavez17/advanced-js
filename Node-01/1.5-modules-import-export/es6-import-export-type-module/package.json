@@ -1,0 +1,12 @@
+{
+  "name": "es6-import-export-type-module",
+  "version": "1.0.0",
+  "description": "My Description",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "LuisChavez",
+  "license": "ISC"
+}
