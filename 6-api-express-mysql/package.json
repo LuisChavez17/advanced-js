@@ -1,0 +1,16 @@
+{
+  "name": "6-api-express-mysql",
+  "version": "1.0.0",
+  "description": "API RESTful using express and connected to database (MySQL)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Chavez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "promise-mysql": "^5.2.0"
+  }
+}
