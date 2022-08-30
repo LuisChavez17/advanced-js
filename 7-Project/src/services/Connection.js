@@ -1,7 +1,6 @@
 import meals from "./db.json";
 
-const connection = meals.createConnection({
-});
+const connection = meals;
 
 const getConnection = () =>{
     return connection
