@@ -10,5 +10,6 @@ APIroutes.get("/meals/:id", DataRestController.getMealsbyId);
 APIroutes.post("/meals", DataRestController.addNewMeal);
 APIroutes.put("/meals/:id", DataRestController.updateMeal);
 APIroutes.patch("/meals/:id", DataRestController.modifieMeal);
+APIroutes.delete("/meals/:id", DataRestController.deleteMeal);
 
 export default APIroutes;
